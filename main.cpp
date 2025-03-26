@@ -31,7 +31,7 @@ int main() {
 
     
     while (inputFile >> value) {
-        double valoreMappato = intervalloCumulato(value);
+        double valoreMappato = intervalloMappato(value);
         sommaCumulata += valoreMappato;
         double media = sommaCumulata / (i + 1);  
         outputFile << (i + 1) << " " << media << std::endl;
