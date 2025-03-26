@@ -4,7 +4,7 @@
 
 // Funzione per mappare un valore dall'intervallo [1, 5] all'intervallo [-1, 2]
 double intervalloMappato(double value) {
-    return -1 + (value - 1) * (2 + 1) / (5 - 1);
+    return (3.0/4.0)*value-(7.0/4.0);
 }
 
 int main() {
