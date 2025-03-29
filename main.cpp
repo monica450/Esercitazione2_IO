@@ -2,7 +2,7 @@
 #include <fstream>
 #include <iomanip>  
 
-// Funzione per mappare un valore dall'intervallo [1, 5] all'intervallo [-1, 2]
+
 double intervalloMappato(double value) {
     return (3.0/4.0)*value-(7.0/4.0);
 }
